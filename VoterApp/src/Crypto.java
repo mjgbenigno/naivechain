@@ -20,7 +20,4 @@ public class Crypto{
         return result;
     }
 
-    public boolean verifyHash(){
-        
-    }
 }
