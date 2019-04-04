@@ -30,11 +30,13 @@ public class VoterWindow {
 	private JTextField LNameTxt;
 	private JTextField PNumTxt;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
+	private VotingBlockchain vote;
 
 	/**
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		vote = new VotingBlockchain(); //initialize primary object for votingblockchain
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
