@@ -1,3 +1,4 @@
+package src;
 public class Blocks{
     public int index;
     public String previousHash, hash;
